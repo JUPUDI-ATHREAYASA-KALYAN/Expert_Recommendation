@@ -9,11 +9,12 @@ app.include_router(query.query_router)
 app.include_router(user.user_router)
 
 origins = [
-    "https://querybox.wdc1a.ciocloud.nonprod.intranet.ibm.com",
+    "https://ers-7sjs.onrender.com/",
     "http://localhost",
     "http://localhost:4200",
     "http://localhost:4200/",
-    "https://querybox.wdc1a.ciocloud.nonprod.intranet.ibm.com/"
+    "https://ers-7sjs.onrender.com",
+    "https://ers-7sjs"
 ]
 
 app.add_middleware(
